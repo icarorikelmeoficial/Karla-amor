@@ -1,0 +1,280 @@
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karla Rhayna's Corner · um cantinho feito com carinho</title>
+    
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Vincula o arquivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="site-shell" id="siteShell">
+        <div class="decor decor-one">✦</div>
+        <div class="decor decor-two">♡</div>
+        <div class="decor decor-three">✿</div>
+
+        <section class="profile-wrap">
+            
+            <!-- Header Principal -->
+            <header class="hero-card">
+                <div class="hero-sticker sticker-left">♡</div>
+                <div class="hero-sticker sticker-right">✦</div>
+                <div class="eyebrow">✨ Um cantinho feito com carinho</div>
+                <h1>Welcome to<br /><span>Karla&apos;s Corner!</span></h1>
+                <p>As pequenas coisas que fazem o coração da minha garota sorrir ♡</p>
+                <div class="hero-orbit" aria-hidden="true">
+                    <span>🌷</span>
+                    <span>🍦</span>
+                    <span>⭐</span>
+                    <span>☁️</span>
+                </div>
+            </header>
+
+            <!-- Card de Perfil com Foto e Instagram -->
+            <section class="intro-card">
+                <div class="avatar-container">
+                    <img src="imagens/perfil.jpeg" alt="Karla Rhayna" class="avatar-img">
+                    <div class="avatar-heart">♡</div>
+                </div>
+                <div class="intro-copy">
+                    <p class="mini-label">Oi, eu sou a</p>
+                    <h2>Karla Rhayna <span class="heart-icon">♥</span></h2>
+                    <p>Criativa por essência, curiosa por natureza. 💡✨ Movida pela fé, apaixonada pelo Clube de Desbravadores e sempre cheia de ideias novas para criar e aprender. Espontânea, cheia de personalidade e persistente até dar certo. Colocando um pouco de mim em tudo o que faço! 💗</p>
+                </div>
+                
+                <a href="https://www.instagram.com/karlarhayna/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" class="status-pill instagram-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                    Instagram
+                </a>
+            </section>
+
+            <!-- Navegação entre Favoritos e Galeria de Fotos -->
+            <nav class="tab-bar" aria-label="Navegação do perfil">
+                <button class="tab active" data-tab="favorites">⭐ Coisas que ela Ama</button>
+                <button class="tab" data-tab="moments">♥ Galeria</button>
+            </nav>
+
+            <!-- Card de Conteúdo -->
+            <section class="content-card">
+                
+                <div class="tab-content active" id="favorites">
+                    <div class="section-heading">
+                        <div>
+                            <p class="mini-label">clique nos cards para saber mais</p>
+                            <h2>As coisas favoritas dela</h2>
+                        </div>
+                        <span class="hand-note">toque para abrir ✍</span>
+                    </div>
+
+                    <div class="favorite-grid">
+                        <article class="favorite-item" data-fav="jesus">
+                            <div class="photo-tile">
+                                <img src="imagens/jesus.jpg" alt="Jesus" id="img-jesus">
+                            </div>
+                            <div>
+                                <h3>Jesus</h3>
+                                <p>Sua maior inspiração e amor supremo.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="desbravadores">
+                            <div class="photo-tile">
+                                <img src="imagens/dbv.jpeg" alt="Desbravadores" id="img-desbravadores">
+                            </div>
+                            <div>
+                                <h3>Desbravadores</h3>
+                                <p>Serviço, natureza e fé em ação.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="comida">
+                            <div class="photo-tile">
+                                <img src="https://blog.sc.senac.br/wp-content/uploads/2014/06/Arrozfeijaobifesalada.jpg" alt="Comida Favorita" id="img-comida">
+                            </div>
+                            <div>
+                                <h3>Comida Favorita</h3>
+                                <p>O prato especial que ganha o coração dela.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="napolitano">
+                            <div class="photo-tile">
+                                <img src="imagens/sorvete.jpeg" alt="Sorvete Napolitano" id="img-napolitano">
+                            </div>
+                            <div>
+                                <h3>Sorvete Napolitano</h3>
+                                <p>A mistura de 3 sabores perfeita.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="musicas">
+                            <div class="photo-tile">
+                                <img src="imagens/arautosdorei.jpg" alt="Eu Sou a Videira" id="img-musicas">
+                            </div>
+                            <div>
+                                <h3>"Eu sou a videira"</h3>
+                                <p>Sua música favorita (Arautos do Rei).</p>
+                                <span class="click-hint">Ouvir no Spotify 🎵</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="cantores">
+                            <div class="photo-tile">
+                                <img src="imagens/rafaelapinho.jpg" alt="Cantores Favoritos" id="img-cantores">
+                            </div>
+                            <div>
+                                <h3>Cantores Favoritos</h3>
+                                <p>Rafaela Pinho e Arautos do Rei.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="rocklee">
+                            <div class="photo-tile">
+                                <img src="imagens/rocklee.jpeg" alt="Rock Lee" id="img-rocklee">
+                            </div>
+                            <div>
+                                <h3>Rock Lee</h3>
+                                <p>Sua inspiração na vida acadêmica.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="breakingbad">
+                            <div class="photo-tile">
+                                <img src="imagens/breakbad.jpeg" alt="Breaking Bad" id="img-breakingbad">
+                            </div>
+                            <div>
+                                <h3>Breaking Bad</h3>
+                                <p>A série que ela gosta.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="cinnamoroll">
+                            <div class="photo-tile">
+                                <img src="imagens/4.jpeg" alt="Cinnamoroll" id="img-cinnamoroll">
+                            </div>
+                            <div>
+                                <h3>Cinnamoroll</h3>
+                                <p>O toque fofo e calmo da vida dela.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+
+                        <article class="favorite-item" data-fav="academia">
+                            <div class="photo-tile">
+                                <img src="imagens/helokitty.jpeg" alt="Academia" id="img-academia">
+                            </div>
+                            <div>
+                                <h3>Academia</h3>
+                                <p>Foco, disciplina e energia diária.</p>
+                                <span class="click-hint">Clique para ver mais ✨</span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="quote-card">
+                        “O sorriso dela tem essa mania bonita de transformar qualquer dia comum num momento especial.” <span>♡</span>
+                    </div>
+                </div>
+
+                <!-- Aba da Galeria -->
+                <div class="tab-content" id="moments">
+                    <div class="section-heading">
+                        <div>
+                            <p class="mini-label">Galeria especial de memórias</p>
+                            <h2><span>Gallery</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="polaroid-grid">
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento11.jpeg" alt="Foto 1" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento22.jpeg" alt="Foto 2" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento33.jpeg" alt="Foto 3" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento44.jpeg" alt="Foto 4" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/2222.jpeg" alt="Foto 5" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento66.jpeg" alt="Foto 6" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento77.jpeg" alt="Foto 7" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento88.jpeg" alt="Foto 8" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/momento99.jpeg" alt="Foto 9" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/1111.jpeg" alt="Foto 10" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/111.jpeg" alt="Foto 11" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/222.jpeg" alt="Foto 12" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/333.jpeg" alt="Foto 13" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/444.jpeg" alt="Foto 14" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/555.jpeg" alt="Foto 15" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/666.jpeg" alt="Foto 16" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/777.jpeg" alt="Foto 17" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/888.jpeg" alt="Foto 18" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/999.jpeg" alt="Foto 19" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/1010.jpeg" alt="Foto 20" class="polaroid-img"></div><p></p></div>
+                        <div class="polaroid" data-caption=""><div class="polaroid-img-frame"><img src="imagens/1111.jpeg" alt="Foto 21" class="polaroid-img"></div><p></p></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Card da Mensagem Secreta -->
+            <button class="message-card" id="messageBtn">
+                <div class="lock-icon" id="lockIcon">🔒</div>
+                <div>
+                    <p class="mini-label">uma notinha secreta</p>
+                    <h2 id="messageTitle">Clique para abrir seu presentinho</h2>
+                    <p class="secret-message-content" id="messageText">
+                        Karla Rhayna, obrigado por ser essa pessoa tão incrível, doce e cheia de luz. Desde o dia que você chegou, você mudou minha vida completamente, tem me dado motivos para sorrir, sua companhia é algo que eu nunca quero perder. Muito obrigado, meu amor, por ser você mesma e por me amar de verdade. Este cantinho foi feito só para te lembrar do quanto você é amada em cada pequeno detalhe! ♡
+                    </p>
+                    <p class="secret-message-content">
+                        Com muito amor e carinho, do seu namorado Ícaro Riquelme ♡
+                    </p>
+                </div>
+            </button>
+
+            <footer>
+                🎵 Feito com amor e carinho especialmente para a Karla <span>♥</span>
+            </footer>
+
+        </section>
+    </main>
+
+    <!-- Modal dos Favoritos -->
+    <div class="modal-overlay" id="favModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <img src="" alt="" class="modal-photo" id="modalPhoto">
+                <h3 class="modal-title" id="modalTitle">Título</h3>
+            </div>
+            <p class="modal-body" id="modalBody">Descrição aqui...</p>
+            <div class="modal-links-container" id="modalLinksContainer"></div>
+            <button class="modal-close-btn" id="modalClose">Entendi! ♡</button>
+        </div>
+    </div>
+
+    <!-- Modal para Fotos Polaroid Ampliadas -->
+    <div class="modal-overlay" id="photoModal">
+        <div class="photo-modal-card">
+            <img src="" alt="Foto Ampliada" class="photo-modal-img" id="photoModalImg">
+            <p class="photo-modal-caption" id="photoModalCaption"></p>
+            <button class="modal-close-btn" id="photoModalClose">Fechar ♡</button>
+        </div>
+    </div>
+
+    <!-- Vincula o arquivo JS externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
